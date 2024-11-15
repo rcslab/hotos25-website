@@ -601,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1870,9 +1870,10 @@ h4.sch > .sch-sessionchair {
 }
 
 @media (min-width: 1024px) {
-  #intro {
+  /*#intro {
+    // Not good for our new picture
     background-attachment: fixed;
-  }
+  }*/
 
   #about {
     background-attachment: fixed;
