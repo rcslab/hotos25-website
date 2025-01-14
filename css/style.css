@@ -21,7 +21,7 @@ html,
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Noticia Text", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   height: 100%;
   margin: 0;
@@ -46,21 +46,21 @@ p {
 }
 
 h2 {
-  font-family: "Bruno Ace SC", serif;
+  font-family: "Open Sans", sans-serif;
   margin: 20px 0px 20px 0;
   padding: 0;
   color: #0e1b4d;
 }
 
 h3 {
-  font-family: "Bruno Ace SC", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin: 60px 0px 10px 0;
   padding: 0;
   color: #0e1b4d;
 }
 h3.sch {
-  font-family: "Bruno Ace SC", serif;
+  font-family: "Open Sans", sans-serif;
   color: #f82249;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -77,7 +77,7 @@ h3.sch:before {
   padding-bottom: 1em;
 }
 h4.sch {
-  font-family: "Bruno Ace SC", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 32px;
@@ -105,7 +105,7 @@ h4.sch:after {
 h4.sch > .sch-time,
 h4.sch > .sch-sessionchair {
   display: block;
-  font-family: "Noticia Text", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: rgb(14, 25, 66);
   font-weight: bold;
