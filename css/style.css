@@ -1352,12 +1352,15 @@ blockquote {
 }
 
 #spo .spo-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 #spo img {
   /* transition: all 0.4s ease-in-out; */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 /*--------------------------------------------------------------
