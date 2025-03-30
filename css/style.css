@@ -1971,4 +1971,5 @@ h4.sch > .sch-sessionchair {
 /* Custom */
 .paperlist li {
   margin-bottom: 1em;
+  list-style-position: outside;
 }
