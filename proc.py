@@ -129,6 +129,11 @@ print("""<!DOCTYPE html>
 
 PrintBreak("Notice: Please do not email us changes to your paper title and affiliation.  Please update them in HotCRP and they will be updated shortly.")
 
+StartDay("Tuesday &ndash; May 14, 2025")
+
+PrintBreak("14:00&ndash;17:00 &mdash; Registration Desk in Mount Stephen Hall (Mezzanine 1)")
+PrintBreak("18:00&ndash;20:00 &mdash; Welcome Reception in Mount Stephen Hall (Mezzanine 1)")
+
 StartDay("Wednesday &ndash; May 14, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
@@ -158,7 +163,7 @@ PrintBreak("Dinner on Your Own")
 # Thursday
 #
 
-StartDay("Wednesday &ndash; May 14, 2025")
+StartDay("Thursday &ndash; May 14, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
 StartSession("Throwback Thursday: Classic OS Design Issues, Remixed", "9:00&ndash;10:15", "TBA")
@@ -166,7 +171,7 @@ PrintPapers([364, 414, 429])
 
 PrintBreak("10:15&ndash;10:45 &mdash; Coffee Break (Alhambra Foyer)")
 
-StartSession("What Can we Lean from Learned Systems?", "10:45&ndash;12:00", "TBA")
+StartSession("What Can we Learn from Learned Systems?", "10:45&ndash;12:00", "TBA")
 PrintPapers([113, 292, 251])
 
 PrintBreak("12:00&ndash;13:15 &mdash; Lunch Buffet (Alhambra Room)")
