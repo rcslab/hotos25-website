@@ -148,7 +148,7 @@ PrintPapers([67, 139, 206])
 PrintBreak("12:00&ndash;13:15 &mdash; Lunch Buffet (Alhambra Room)")
 
 StartSession("Tiered Storage: Yet More Systems Problems Solved with Another Layer of Indirection", "13:15&ndash;14:30", "TBA")
-PrintPapers([72, 321, 144, 321])
+PrintPapers([72, 321, 144])
 
 PrintBreak("14:30&ndash;15:00 &mdash; Coffee Break (Alhambra Foyer)")
 
