@@ -132,7 +132,7 @@ PrintBreak("Notice: Please do not email us changes to your paper title and affil
 StartDay("Wednesday &ndash; May 14, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
-StartSession("How to be in this world: Seucring Adolescent AIs", "9:00&ndash;10:30", "TBA")
+StartSession("How to be in this world: Securing Adolescent AIs", "9:00&ndash;10:30", "TBA")
 PrintPapers([156, 100, 290], "Introductory Remarks")
 
 PrintBreak("10:30&ndash;10:45 &mdash; Coffee Break (Alhambra Foyer)")
