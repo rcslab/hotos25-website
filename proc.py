@@ -47,11 +47,11 @@ def PrintBreak(msg):
     print("  </tbody>")
     print("</table>")
 
-def PrintPanel(panel):
+def PrintPanel(time, panel):
     print("<table class=\"table\">")
     print("  <tbody>")
     print("    <tr class=\"table-info\">")
-    print("      <th>" + papers.loc[panel]["Title"] + "</th>")
+    print("      <th>" + time + " &mdash; " + papers.loc[panel]["Title"] + "</th>")
     print("    </tr>")
     print("    <tr>")
     print("      <td>")
@@ -129,7 +129,7 @@ print("""<!DOCTYPE html>
 
 PrintBreak("Notice: Please do not email us changes to your paper title and affiliation.  Please update them in HotCRP and they will be updated shortly.")
 
-StartDay("Tuesday &ndash; May 14, 2025")
+StartDay("Tuesday &ndash; May 13, 2025")
 
 PrintBreak("14:00&ndash;17:00 &mdash; Registration Desk in Mount Stephen Hall (Mezzanine 1)")
 PrintBreak("18:00&ndash;20:00 &mdash; Welcome Reception in Mount Stephen Hall (Mezzanine 1)")
@@ -155,7 +155,7 @@ PrintBreak("14:30&ndash;15:00 &mdash; Coffee Break (Alhambra Foyer)")
 StartSession("In Principle, Sure, but in Practice ...", "15:00&ndash;16:00", "TBA")
 PrintPapers([56, 69])
 
-PrintPanel(399)
+PrintPanel("16:10&ndash;17:00", 399)
 
 PrintBreak("Dinner on Your Own")
 
@@ -163,7 +163,7 @@ PrintBreak("Dinner on Your Own")
 # Thursday
 #
 
-StartDay("Thursday &ndash; May 14, 2025")
+StartDay("Thursday &ndash; May 15, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
 StartSession("Throwback Thursday: Classic OS Design Issues, Remixed", "9:00&ndash;10:15", "TBA")
@@ -181,12 +181,13 @@ PrintPapers([60, 240, 207])
 
 PrintBreak("14:30&ndash;15:00 &mdash; Coffee Break (Alhambra Foyer)")
 
-PrintPanel(135)
+PrintPanel("14:50&ndash;15:50", 135)
 
 StartSession("The Mind Fairly Boggles: Understanding Datacenter Application Behavior", "16:00&ndash;17:15", "TBA")
 PrintPapers([71, 426, 106])
 
-PrintBreak("Banquet (Alhambra Room)")
+PrintBreak("18:00&ndash;19:00 &mdash; Cocktails in Alhambra Foyer")
+PrintBreak("19:00&ndash;21:00 &mdash; Banquet (Alhambra Room)")
 
 #
 # Friday
