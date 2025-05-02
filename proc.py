@@ -137,22 +137,22 @@ PrintBreak("18:00&ndash;20:00 &mdash; Welcome Reception in Mount Stephen Hall (M
 StartDay("Wednesday &ndash; May 14, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
-StartSession("How to be in this world: Securing Adolescent AIs", "9:00&ndash;10:30", "TBA")
+StartSession("How to be in this world: Securing Adolescent AIs", "9:00&ndash;10:30", "Timothy Roscoe")
 PrintPapers([156, 100, 290], "Introductory Remarks")
 
 PrintBreak("10:30&ndash;10:45 &mdash; Coffee Break (Alhambra Foyer)")
 
-StartSession("Breaking the Big Goal of Verification into Smaller Pieces", "10:45&ndash;12:00", "TBA")
+StartSession("Breaking the Big Goal of Verification into Smaller Pieces", "10:45&ndash;12:00", "Alexandra (Sasha) Fedorova")
 PrintPapers([67, 139, 206])
 
 PrintBreak("12:00&ndash;13:15 &mdash; Lunch Buffet (Alhambra Room)")
 
-StartSession("Tiered Storage: Yet More Systems Problems Solved with Another Layer of Indirection", "13:15&ndash;14:30", "TBA")
+StartSession("Tiered Storage: Yet More Systems Problems Solved with Another Layer of Indirection", "13:15&ndash;14:30", "Kim Keeton")
 PrintPapers([72, 321, 144])
 
 PrintBreak("14:30&ndash;15:00 &mdash; Coffee Break (Alhambra Foyer)")
 
-StartSession("In Principle, Sure, but in Practice ...", "15:00&ndash;16:00", "TBA")
+StartSession("In Principle, Sure, but in Practice ...", "15:00&ndash;16:00", "James Mickens")
 PrintPapers([56, 69])
 
 PrintPanel("16:10&ndash;17:00", 399)
@@ -166,27 +166,27 @@ PrintBreak("Dinner on Your Own")
 StartDay("Thursday &ndash; May 15, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
-StartSession("Throwback Thursday: Classic OS Design Issues, Remixed", "9:00&ndash;10:15", "TBA")
-PrintPapers([364, 414, 429])
+StartSession("Throwback Thursday: Classic OS Design Issues, Remixed", "9:00&ndash;10:15", "Don Porter")
+PrintPapers([364, 414, 178])
 
 PrintBreak("10:15&ndash;10:45 &mdash; Coffee Break (Alhambra Foyer)")
 
-StartSession("What Can we Learn from Learned Systems?", "10:45&ndash;12:00", "TBA")
+StartSession("What Can we Learn from Learned Systems?", "10:45&ndash;12:00", "Aurojit Panda")
 PrintPapers([113, 292, 251])
 
 PrintBreak("12:00&ndash;13:15 &mdash; Lunch Buffet (Alhambra Room)")
 
-StartSession("Faster Pipes", "13:15&ndash;14:30", "TBA")
+StartSession("Faster Pipes", "13:15&ndash;14:30", "Ana Klimović")
 PrintPapers([60, 240, 207])
 
-PrintBreak("14:30&ndash;15:00 &mdash; Coffee Break (Alhambra Foyer)")
+PrintBreak("14:30&ndash;14:50 &mdash; Coffee Break (Alhambra Foyer)")
 
 PrintPanel("14:50&ndash;15:50", 135)
 
-StartSession("The Mind Fairly Boggles: Understanding Datacenter Application Behavior", "16:00&ndash;17:15", "TBA")
+StartSession("The Mind Fairly Boggles: Understanding Datacenter Application Behavior", "16:00&ndash;17:15", "Shivaram Venkataraman")
 PrintPapers([71, 426, 106])
 
-PrintBreak("18:00&ndash;19:00 &mdash; Cocktails in Alhambra Foyer")
+PrintBreak("18:00&ndash;19:00 &mdash; Cocktails (Alhambra Foyer)")
 PrintBreak("19:00&ndash;21:00 &mdash; Banquet (Alhambra Room)")
 
 #
@@ -196,12 +196,12 @@ PrintBreak("19:00&ndash;21:00 &mdash; Banquet (Alhambra Room)")
 StartDay("Friday &ndash; May 16, 2025")
 PrintBreak("8:00&ndash;9:00 &mdash; Breakfast Buffet (Alhambra Room)")
 
-StartSession("Handling Malthusian Growth in Datacenter Infrastructure", "9:00&ndash;10:15", "TBA")
-PrintPapers([178, 102, 358])
+StartSession("Handling Malthusian Growth in Datacenter Infrastructure", "9:00&ndash;10:15", "Hugo Sadok")
+PrintPapers([429, 102, 358])
 
 PrintBreak("10:15&ndash;10:45 &mdash; Coffee Break (Alhambra Foyer)")
 
-StartSession("Hot OSes without a Hot Planet", "10:45&ndash;12:00", "TBA")
+StartSession("Hot OSes without a Hot Planet", "10:45&ndash;12:00", "Natacha Crooks")
 PrintPapers([17, 190, 92])
 
 PrintBreak("Lunch on Your Own")
