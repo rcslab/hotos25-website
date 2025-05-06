@@ -1,0 +1,391 @@
+\documentclass[letter,10pt]{article}
+
+\usepackage{fontspec}
+\usepackage{fontenc}
+
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\usepackage{nicematrix}
+\usepackage{enumitem}
+      
+\definecolor{sessioncolor}{rgb}{0.27, 0.33, 0.42} 
+\definecolor{breakcolor}{rgb}{0.74, 0.95, 0.76} 
+\definecolor{panelcolor}{rgb}{0.75, 0.90, 0.92} 
+
+\usepackage[margin=1in]{geometry}
+
+\setmainfont{Myriad Pro}
+
+\begin{document}
+
+\pagestyle{empty}
+\title{HotOS 2025 Workshop Program}
+\date{}
+\maketitle
+\vspace{-1em}
+
+{\centering\bf\large Tuesday -- May 13, 2025}\\
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 14:00--17:00 } & {\bf Registration Desk in Mount Stephen Hall (Mezzanine 1) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 18:00--20:00 } & {\bf Welcome Reception in Mount Stephen Hall (Mezzanine 1) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+{\centering\bf\large Wednesday -- May 14, 2025}\\
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 8:00--9:00 } & {\bf Breakfast Buffet (Alhambra Room) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 9:00--10:30} & {\color{white}\bf How to be in this world: Securing Adolescent AIs}\\
+ & {\color{white}Session Chair: Timothy Roscoe}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{centering}
+{\bf Introductory Remarks}\\
+\end{centering}\vspace{1em}
+\begin{enumerate}[resume]
+\item {\bf How I learned to stop worrying and love learned OS policies}\\
+Divyanshu Saxena, Jiayi Chen (The University of Texas at Austin); Sujay Yadalam (University of Wisconsin-Madison); Yeonju Ro, Rohit Dwivedula, Eric H. Campbell, Aditya Akella, Christopher J. Rossbach (The University of Texas at Austin); Michael Swift (University of Wisconsin--Madison)\\
+\item {\bf Contextual Agent Security: A Policy for Every Purpose}\\
+Lillian Tsai, Eugene Bagdasarian (Google)\\
+\item {\bf Guillotine: Hypervisors for Isolating Malicious AIs}\\
+James Mickens, Sarah Radway (Harvard University); Ravi Netravali (Princeton University)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 10:30--10:45 } & {\bf Coffee Break (Alhambra Foyer) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 10:45--12:00} & {\color{white}\bf Breaking the Big Goal of Verification into Smaller Pieces}\\
+ & {\color{white}Session Chair: Alexandra (Sasha) Fedorova}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Lightweight Hypervisor Verification: Putting the Hardware Burger on a Diet}\\
+Charly Castes (EPFL); François Costa (ETH Zurich); Nate Foster (Cornell and Jane Street); Thomas Bourgeat, Edouard Bugnion (EPFL)\\
+\item {\bf Can Large Language Models Verify System Software? A Case Study Using FSCQ as a Benchmark.}\\
+Jianxing Qin, Alexander Du, Danfeng Zhang, Matthew Lentz, Danyang Zhuo (Duke University)\\
+\item {\bf Modular, Full-System Verification}\\
+Gregory Malecha, Hoang-Hai Dang, Paolo G. Giarrusso, Simon Hudon, Jan-Oliver Kaiser (BlueRock Security, Inc); David Swasey (Riverside Research)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 12:00--13:15 } & {\bf Lunch Buffet (Alhambra Room) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 13:15--14:30} & {\color{white}\bf Tiered Storage: Yet More Systems Problems Solved with Another Layer of Indirection}\\
+ & {\color{white}Session Chair: Kim Keeton}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Tolerate It if You Cannot Reduce It: Handling Latency in Tiered Memory}\\
+Musa Unal, Vishal Gupta, Yueyang Pan, Yujie Ren, Sanidhya Kashyap (EPFL)\\
+\item {\bf My CXL Pool Obviates Your PCIe Switch}\\
+Yuhong Zhong (Columbia University); Daniel S. Berger (Microsoft Azure and University of Washington); Pantea Zardoshti, Enrique Saurez (Microsoft Azure); Jacob Nelson (Microsoft Research); Antonis Psistakis (University of Illinois Urbana-Champaign); Joshua Fried (MIT CSAIL); Asaf Cidon (Columbia University)\\
+\item {\bf Rethinking Tiered Storage: Talk to File Systems, Not Device Drivers}\\
+Jiyuan Zhang, Jongyul Kim, Chloe Alverti, Peizhe Liu (University of Illinois Urbana-Champaign); Weiwei Jia (The University of Rhode Island); Tianyin Xu (University of Illinois Urbana-Champaign)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 14:30--15:00 } & {\bf Coffee Break (Alhambra Foyer) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 15:00--16:00} & {\color{white}\bf In Principle, Sure, but in Practice ...}\\
+ & {\color{white}Session Chair: James Mickens}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Uniting the world by dividing it: Federated maps to enable spatial applications}\\
+Sagar Bharadwaj, Anthony Rowe, Srinivasan Seshan (Carnegie Mellon University)\\
+\item {\bf Real Life is Uncertain. Consensus Should Be Too!}\\
+Reginald Frank, Octavio Lomeli, Neil Giridharan, Soujanya Ponnapalli (UC Berkeley); Marcos K. Aguilera (Broadcom); Natacha Crooks (UC Berkeley)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{panelcolor}{1-3}
+\Body
+ & {\color{black}\bf Panel: Panel: Opportunities and Challenges of Applying Machine Learning in Computer Systems}\\
+ & \color{black}Cheng Tan (Northeastern University); Christopher J. Rossbach (UT Austin); Martin Maas (Google DeepMind)\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf  } & {\bf Dinner on Your Own }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\newpage
+{\centering\bf\large Thursday -- May 15, 2025}\\
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 8:00--9:00 } & {\bf Breakfast Buffet (Alhambra Room) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 9:00--10:15} & {\color{white}\bf Throwback Thursday: Classic OS Design Issues, Remixed}\\
+ & {\color{white}Session Chair: Don Porter}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs}\\
+Lukas Lazarek, Seong-Heon Jung (Brown University); Evangelos Lamprou (Brown University \& DTU); Zekai Li, Anirudh Narsipur, Eric Zhao (Brown University); Michael Greenberg (Stevens Institute of Technology); Konstantinos Kallas (University of California, Los Angeles); Konstantinos Mamouras (Rice University); Nikos Vasilakis (Brown University)\\
+\item {\bf Spork: A posix\_spawn you can use as a fork}\\
+Manuel Vögele, Christopher Thomas, Timo Hönig (Ruhr University Bochum)\\
+\item {\bf Apiary: An OS for the Modern FPGA}\\
+Katie Lim, Matthew Giordano (University of Washington); Irene Zhang (Microsoft Research); Baris Kasikci, Thomas Anderson (University of Washington)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 10:15--10:45 } & {\bf Coffee Break (Alhambra Foyer) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 10:45--12:00} & {\color{white}\bf What Can we Learn from Learned Systems?}\\
+ & {\color{white}Session Chair: Aurojit Panda}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Storage Class Memory is Dead, All Hail Managed-Retention Memory: Rethinking Memory for the AI Era}\\
+Sergey Legtchenko, Ioan Stefanovici, Richard Black, Antony Rowstron, Junyi Liu, Paolo Costa, Burcu Canakci, Dushyanth Narayanan, Xingbo Wu (Microsoft Research)\\
+\item {\bf Towards ML System Extensibility}\\
+Weixin Deng, Andy Ruan, Megan Frisella (University of Washington); Kai-Hsun Chen (Anyscale); SangBin Cho (xAI); Jack Tigar Humphries (Jane Street); Rui Qiao (Anyscale); Stephanie Wang (University of Washington)\\
+\item {\bf Good things come in small packages: Should we build AI clusters with Lite-GPUs?}\\
+Burcu Canakci, Junyi Liu, Xingbo Wu, Nathanaël Cheriere, Dushyanth Narayanan, Paolo Costa, Sergey Legtchenko, Antony Rowstron (Microsoft Research)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 12:00--13:15 } & {\bf Lunch Buffet (Alhambra Room) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 13:15--14:30} & {\color{white}\bf Faster Pipes}\\
+ & {\color{white}Session Chair: Ana Klimović}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Batching with End-to-End Performance Estimation}\\
+Avidan Borisov, Nadav Amit, Dan Tsafrir (Technion)\\
+\item {\bf Stop Taking the Scenic Route: the Shortest Distance Between the CPU and the NIC is MMIO}\\
+Wei Siew Liew, Md Ashfaqur Rahaman, James McMahon, Ryan Stutsman, Vijay Nagarajan (University of Utah)\\
+\item {\bf The NIC should be part of the OS.}\\
+Pengcheng Xu, Timothy Roscoe (ETH Zurich)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 14:30--14:50 } & {\bf Coffee Break (Alhambra Foyer) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{panelcolor}{1-3}
+\Body
+ & {\color{black}\bf Panel: AI Infrastructure: Can The Systems Community Close (most of) the AI Energy Gap?}\\
+ & \color{black}Ricardo Bianchini (Microsoft Azure); Tim Dettmers (Allen Institute and CMU); Zhihao Jia (CMU); Philip Levis (Stanford); David Tennenhouse (National Science Foundation)\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 16:00--17:15} & {\color{white}\bf The Mind Fairly Boggles: Understanding Datacenter Application Behavior}\\
+ & {\color{white}Session Chair: Shivaram Venkataraman}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Rethinking RPC Communication for Microservices-based Applications}\\
+Xiangfeng Zhu (University of Washington); Yang Zhou (UC Davis and UC Berkeley); Yuyao Wang, Xiangyu Gao, Arvind Krishnamurthy (University of Washington); Sam Kumar (University of California, Los Angeles); Ratul Mahajan (University of Washington); Danyang Zhuo (Duke University)\\
+\item {\bf Understanding the limitations of pubsub systems}\\
+Atul Adya, Phil Bogle, Colin Meek (Databricks)\\
+\item {\bf Analyzing Metastable Failures}\\
+Rebecca Isaacs (AWS); Rupak Majumdar (AWS and MPI-SWS); Peter Alvaro (UC Santa Cruz and AWS); Kiran-Kumar Muniswamy-Reddy (AWS); Mahmoud Salamati, Sadegh Soudjani (MPI-SWS)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 18:00--19:00 } & {\bf Cocktails (Alhambra Foyer) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 19:00--21:00 } & {\bf Banquet (Alhambra Room) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\newpage
+{\centering\bf\large Friday -- May 16, 2025}\\
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 8:00--9:00 } & {\bf Breakfast Buffet (Alhambra Room) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 9:00--10:15} & {\color{white}\bf Handling Malthusian Growth in Datacenter Infrastructure}\\
+ & {\color{white}Session Chair: Hugo Sadok}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf Serve Programs, Not Prompts}\\
+In Gim, Lin Zhong (Yale University)\\
+\item {\bf Granular Resource Demand Heterogeneity}\\
+Yizhuo Liang, Ramesh Govindan, Seo Jin Park (University of Southern California)\\
+\item {\bf Designing a Datacenter-wide Distributed Shared Log}\\
+Micah Murray, Wen Zhang, Aisha Mushtaq, Natacha Crooks (UC Berkeley); Aurojit Panda (New York University); Scott Shenker (ICSI AND UC Berkeley)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf 10:15--10:45 } & {\bf Coffee Break (Alhambra Foyer) }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{sessioncolor}{1-3}
+\Body
+{\color{white}\bf 10:45--12:00} & {\color{white}\bf Hot OSes without a Hot Planet}\\
+ & {\color{white}Session Chair: Natacha Crooks}\\
+ & \\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\begin{enumerate}[resume]
+\item {\bf The Case for Energy Clarity}\\
+Fan Chung, Henry Kuo, George Candea (EPFL)\\
+\item {\bf Leveraging Software Fault Tolerance for Longer Flash Hardware Lifespan}\\
+Aviad Zuck (Technion); Rob Johnson (Broadcom); Donald Porter (The University of North Carolina at Chapel Hill); Dan Tsafrir (Technion)\\
+\item {\bf Towards Resource-Efficient Compound AI Systems}\\
+Gohar Irfan Chaudhry (MIT CSAIL); Esha Choukse, Íñigo Goiri, Rodrigo Fonseca (Microsoft Azure Research -- Systems); Adam Belay (MIT CSAIL); Ricardo Bianchini (Microsoft Azure)\\
+\end{enumerate}
+\vspace{0.1em}
+
+\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}
+\CodeBefore
+\rowcolor{breakcolor}{1-2}
+\Body
+{\bf  } & {\bf Lunch on Your Own }\\
+\end{NiceTabular}
+\vspace{0.1em}
+
+\end{document}
