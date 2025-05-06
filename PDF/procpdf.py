@@ -25,7 +25,7 @@ def StartSession(title, time, chair):
 #    print("\\end{tabular}")
 #    print("\\vspace{1em}\n")
      #print("\\begin{table*}[h!]")
-     print("\\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}")
+     print("\\begin{NiceTabular}{p[l]{1in}p[l]{5in}}")
      print("\\CodeBefore")
      print("\\rowcolor{sessioncolor}{1-3}")
      print("\\Body")
@@ -40,14 +40,19 @@ def StartSession(title, time, chair):
 
 def PrintPapers(paperlist, pre = None):
     if (pre != None):
-        print("\\begin{centering}")
-        print("{\\bf " + pre + "}\\\\")
-        print("\\end{centering}\\vspace{1em}")
-    print("\\begin{enumerate}[resume]")
+        print("\\begin{NiceTabular}{p[l]{1in}p[l]{5in}}")
+        print("\\CodeBefore")
+        print("\\rowcolor{panelcolor}{1-2}")
+        print("\\Body")
+        print(" & {\\color{black}\\bf " + pre + "}\\\\")
+        print(" & \\\\")
+        print("\\end{NiceTabular}")
+        print("\\vspace{0.1em}\n")
+    print("\\begin{enumerate}[resume,itemsep=0.5em]")
     for i in paperlist:
         #print("\\begin{centering}")
         print("\\item {\\bf " + papers.loc[i]["Title"].replace("_", "\\_") + "}\\\\")
-        print("" + papers.loc[i]["Authors"].replace("&","\\&") + "\\\\")
+        print("" + papers.loc[i]["Authors"].replace("&","\\&") + "")
         #print("\\end{centering}")
         #print("\\vspace{2em}\n")
     print("\\end{enumerate}")
@@ -55,7 +60,7 @@ def PrintPapers(paperlist, pre = None):
 
 def PrintBreak(time, msg):
      #print("\\begin{table*}[h!]")
-     print("\\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}")
+     print("\\begin{NiceTabular}{p[l]{1in}p[l]{5in}}")
      print("\\CodeBefore")
      print("\\rowcolor{breakcolor}{1-2}")
      print("\\Body")
@@ -73,7 +78,7 @@ def PrintPanel(time, panel):
     #print(papers.loc[panel]["Authors"] + "\\\\")
     #print(time + "\\\\")
     #print("\\end{centering}\n")
-    print("\\begin{NiceTabular}{p[l]{1in}p[l]{5.5in}}")
+    print("\\begin{NiceTabular}{p[l]{1in}p[l]{5in}}")
     print("\\CodeBefore")
     print("\\rowcolor{panelcolor}{1-3}")
     print("\\Body")
