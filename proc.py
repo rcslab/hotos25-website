@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import csv
 import pandas
 
@@ -15,6 +16,17 @@ def StartSession(title, time, chair):
     print("<span class=\"sch-sessionchair\">Session Chair: " + chair + "</span>")
     print("</h4>")
 
+def getslides(papernum):
+    slides = { }
+    sslides = [ ]
+    for k,ext in { "PDF":".pdf", "PowerPoint":".pptx", "ODF":".odf", "Keynote":".key" }.items():
+        path = "slides/slides" + str(papernum) + ext
+        if os.path.isfile(path):
+            slides[k] = path
+    for k,v in slides.items():
+        sslides += [ "<a href=\"" + v + "\">" + k + "</a>" ]
+    return " | ".join(sslides)
+
 def PrintPapers(paperlist, pre = None):
     print("<table class=\"table\">")
     print("  <tbody>")
@@ -28,9 +40,14 @@ def PrintPapers(paperlist, pre = None):
     print("        <ul>")
     for i in paperlist:
         print("          <li>")
-        print("          <span class=\"sch-title\">" + papers.loc[i]["Title"] + "</span>")
+        print("          <span class=\"sch-title\"><a href=\"papers/hotos25-" + str(i) 
+              + ".pdf\">" + papers.loc[i]["Title"] + "</a></span>")
         print("          <br>")
         print("          <em>" + papers.loc[i]["Authors"] + "</em>")
+        slides = getslides(i)
+        if len(slides) > 0:
+            print("          <br>");
+            print("          Slides: " + slides);
         print("          </li>")
     print("        </ul>")
     print("      </td>")
